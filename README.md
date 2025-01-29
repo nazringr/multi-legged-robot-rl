@@ -1,9 +1,14 @@
 # Training Four-Legged Robots with Reinforcement Learning
 
 ## Overview
-This project explores the application of advanced reinforcement learning (RL) techniques to train a four-legged robot for improved locomotion. Three distinct training sessions using Proximal Policy Optimization (PPO) and Soft Actor-Critic (SAC) algorithms were conducted to develop robust and adaptive movement strategies. The training focused on optimizing reward functions for various performance metrics such as velocity, orientation, and stability. Stable policies were derived from these sessions and evaluated to demonstrate significant improvements in the robot’s navigational capabilities across diverse environments.
+This project explores the application of advanced reinforcement learning (RL) techniques to train a four-legged robot for improved locomotion. Three distinct training sessions using Proximal Policy Optimization (PPO) and Soft Actor-Critic (SAC) algorithms were conducted to develop robust and adaptive movement strategies. The training focused on optimizing reward functions for various performance metrics such as velocity, orientation, and stability. Stable policies were derived from these sessions and evaluated to demonstrate significant improvements in the robot’s navigational capabilities.
 
-![Barkour](assets/barkour.gif)
+<p align="center">
+  <img src="barkour.gif" alt="Barkour">
+    <br>
+  <i>Figure 1. Barkour</i>
+</p>
+
 
 ## Training Files
 Three Colab files have been provided for training a four-legged robot using different RL algorithms:
